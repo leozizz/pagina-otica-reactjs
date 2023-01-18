@@ -10,14 +10,14 @@ export default function SecaoContato(){
                     <div className="contato">
                         <h3>Contato</h3>
                         <p><img src="assets/local.png"></img>Nova Iguaçu, RJ</p>
-                        <p><img src="assets/telefone.png"></img></p>
-                        <p><img src="assets/email.pmg"></img></p>
+                        <p><img src="assets/telefone.png"></img>(21) 9999-9999</p>
+                        <p><img src="assets/email.png"></img>contato@oticavida.com</p>
                     </div>
                     <div className="redesSociais">
                         <h3>Nossas Redes Sociais</h3>
-                        <img src="assets/fb.png"></img>
-                        <img src="assets/ig.png"></img>
-                        <img src="assets/tt.png"></img>
+                        <p><img src="assets/fb.png"></img>/OticaVida</p>
+                        <p><img src="assets/ig.png"></img>@oticavidarj</p>
+                        <p><img src="assets/tt.png"></img>@oticavidarj</p>                       
                     </div>
                 </div>
             </div>

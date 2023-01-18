@@ -10,6 +10,7 @@ export default function App () {
     <div>
         <Header></Header>
         <Conteudo></Conteudo>
+        <Footer></Footer>
     </div>
     )
 }
