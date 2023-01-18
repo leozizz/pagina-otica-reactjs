@@ -1,33 +1,17 @@
 import React from "react"
 
-export function SecaoCapa(){
-    return(
-        <section>
+import SecaoCapa from './SecaoCapa/'
+import SecaoProdutos from './SecaoProdutos/'
+import SecaoSobre from './SecaoSobre'
+import SecaoContato from './SecaoContato'
 
-        </section>
-    )
-}
-
-export function SecaoProdutos(){
-    return(
-        <section>
-
-        </section>
-    )
-}
-
-export function SecaoSobre(){
-    return(
-        <section>
-
-        </section>
-    )
-}
-
-export function SecaoContato(){
-    return(
-        <section>
-            
-        </section>
+export default function Conteudo(){
+    return (
+        <div>
+        <SecaoCapa></SecaoCapa>
+        <SecaoProdutos></SecaoProdutos>
+        <SecaoSobre></SecaoSobre>
+        <SecaoContato></SecaoContato>
+        </div>
     )
 }

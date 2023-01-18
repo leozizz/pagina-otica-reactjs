@@ -1,21 +1,13 @@
 import React from 'react'
 
-export default function Topo(){
+export default function Header(){
     return(
         <header>
             <nav>
-                <img></img>
-                <ul>
-                    <li>
-                        <a>Produtos</a>
-                    </li>
-                    <li>
-                        <a>Sobre</a>
-                    </li>
-                    <li>
-                        <a>Contato</a>
-                    </li>
-                </ul>
+                <img src="assets/logo.png"/>
+                <a href="#produtos">PRODUTOS</a>
+                <a href="sobre">SOBRE</a>
+                <a href="contato">CONTATO</a>
             </nav>
         </header>
     )
