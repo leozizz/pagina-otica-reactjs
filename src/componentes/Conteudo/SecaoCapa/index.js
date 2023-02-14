@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SecaoCapa(){
     return(
-        <section>
+        <section className="secao-capa">
             <div>
             <p>Preços baixos em</p>
             <h1>ÓCULOS DE GRAU E DE SOL</h1>
