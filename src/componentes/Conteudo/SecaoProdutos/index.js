@@ -2,12 +2,12 @@ import React from "react"
 
 export default function SecaoProdutos(){
     return(
-        <section>
-            <div className="container">
+        <section className="secao-produtos">
+            <div className="container limitar-secao">
                 <h2>NOSSOS PRODUTOS</h2>
                 <p>Trabalhamos com óculos de grau, óculos de sol, lentes transition nos modelos masculino, femminino e infantil.</p>
                 <p>Todos os nossos preços são acessíveis e contam com a melhor qualidade do mercado.</p>
-                <div className="cardContainer">
+                <div className="card-container">
                     <div className="card">
                         <h3>Óculos de grau</h3>
                         <img src='assets/oculos01.png'></img>
