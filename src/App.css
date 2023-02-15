@@ -185,3 +185,54 @@ header .nav-menu a{
   color: #4a4a4a;
   font-weight: 400;
 }
+
+/* Seção Contato */
+
+.secao-contato {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 100px 20px;
+  background-color: #05031b;
+}
+
+.secao-contato .container .info-social {
+  display: flex;
+  justify-content: center;
+}
+
+.secao-contato .container .info-social .contato,
+.secao-contato .container .info-social .redes-sociais {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 15px;
+}
+
+.secao-contato .info-social .item-container {
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.secao-contato .info-social .item-container img {
+  width: 18px;
+}
+
+.secao-contato .info-social h3 {
+  font-size: 20px;
+}
+
+.secao-contato .info-social .item-container p {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+/* Rodapé */
+
+footer {
+  background-color: #030303;
+  color: #ADADAD;
+  text-align: center;
+  padding: 20px;
+}
