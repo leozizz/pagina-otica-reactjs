@@ -136,3 +136,52 @@ header .nav-menu a{
   text-align: left;
   margin: 5px;
 }
+
+/* Seção Sobre */
+
+.secao-sobre {
+  background-color: #f8f7ff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.secao-sobre .container p {
+  line-height: 32px;
+}
+
+.secao-sobre .card-container {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.secao-sobre .card-container .card,
+.secao-sobre .card-container img {
+  width: 50%;
+  max-height: 300px;
+  border: 1px solid #a2adad;
+}
+
+.secao-sobre .card-container .card {
+  background-color: #fff;
+  padding: 20px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.secao-sobre .card-container .card h3 {
+  font-size: 36px;
+  text-transform: capitalize;
+  font-family: 'Anybody', cursive;
+  letter-spacing: 5px;
+  line-height: 42px;
+  margin-bottom: 15%;
+}
+
+.secao-sobre .card-container .card p {
+  font-size: 22px;
+  color: #4a4a4a;
+  font-weight: 400;
+}
